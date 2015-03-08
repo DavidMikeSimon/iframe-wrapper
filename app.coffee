@@ -11,7 +11,7 @@ server = http.createServer (req, res) ->
     res.writeHead 200
     res.write "
         <html><body style='margin:0'>
-        <div id='cover-up' style='position: absolute; z-index: 20; width: 100%; height: 3000px;' onclick='window.open(\"#{query.t}\")'></div>
+        <div id='cover-up' style='position: absolute; z-index: 20; width: 100%; height: 3000px;' onclick='window.open(\"#{query.t}\", \"_top\")'></div>
         <div id='container' style='z-index:10; overflow:hidden;'>
            <iframe height='3000px' width='100%' scrolling='no' seamless='seamless' style='border: none;' src='#{iframeSrc}'></iframe>
         </div>
