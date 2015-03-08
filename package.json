@@ -3,5 +3,8 @@
   "main": "app.coffee",
   "dependencies": {
     "coffee-script": "*"
+  },
+  "scripts": {
+    "start": "coffee app.coffee"
   }
 }
