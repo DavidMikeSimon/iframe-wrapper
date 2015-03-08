@@ -1,0 +1,10 @@
+{
+  "name": "iframe-wrapper",
+  "dependencies": {
+    "coffee-script": {
+      "version": "1.9.1",
+      "from": "coffee-script@*",
+      "resolved": "https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz"
+    }
+  }
+}

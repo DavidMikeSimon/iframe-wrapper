@@ -1,0 +1,7 @@
+{
+  "name": "iframe-wrapper",
+  "main": "app.coffee",
+  "dependencies": {
+    "coffee-script": "*"
+  }
+}
